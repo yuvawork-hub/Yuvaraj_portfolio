@@ -68,8 +68,9 @@ body { font-family: 'DM Sans', sans-serif; background: var(--surface); color: va
 /* AVATAR */
 .avatar-wrap { position: relative; }
 .avatar-frame {
-  width: 180px; height: 180px; border-radius: 20px;
-  background: linear-gradient(135deg, #054ADA 0%, #47C5FB 100%);
+  width: 210px; height: 210px; border-radius: 20px;
+  /* background: linear-gradient(135deg, #054ADA 0%, #47C5FB 100%); */
+   background: transparent;
   display: flex; align-items: center; justify-content: center;
   position: relative; overflow: hidden;
 }
@@ -192,7 +193,8 @@ body { font-family: 'DM Sans', sans-serif; background: var(--surface); color: va
 .modal-close:hover { background: #E2E8F0; }
 .modal-avatar {
   width: 72px; height: 72px; border-radius: 14px;
-  background: linear-gradient(135deg, #054ADA, #47C5FB);
+  /* background: linear-gradient(135deg, #054ADA, #47C5FB); */
+  background: transparent;
   display: flex; align-items: center; justify-content: center;
   font-family: 'Space Mono', monospace; font-size: 24px; font-weight: 700; color: white;
   margin-bottom: 18px;
